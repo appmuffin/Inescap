@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    /*This XML file lists all those 5 buttons into a list for further listing into Bottom Navigation
+    ,which will be done in "activity_main xml" and gives them their IDs, icon
+    and title */
+
+    <item
+        android:id="@+id/navigate_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigate_chat"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/navigate_addpost"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:title="Post" />
+
+    <item
+        android:id="@+id/navigate_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/navigate_profile"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        android:title="Profile" />
+
+</menu>
