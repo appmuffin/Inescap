@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "29884511945",
+    "firebase_url": "https://inescap-fda0f.firebaseio.com",
+    "project_id": "inescap-fda0f",
+    "storage_bucket": "inescap-fda0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29884511945:android:03a2381e3fbadd8343ff18",
+        "android_client_info": {
+          "package_name": "com.example.inescap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29884511945-k99k213s2mrr3o7br70bbe4p15rnctad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inescap",
+            "certificate_hash": "32d795a39982c7c4aeb2d8625bae70c13791d53e"
+          }
+        },
+        {
+          "client_id": "29884511945-7k7fdhbvj43pda96lkp1kc8l1d5hgr6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inescap",
+            "certificate_hash": "dcf08a198a5fddf8816f318c6449f02f9663fb3a"
+          }
+        },
+        {
+          "client_id": "29884511945-vm7087r7k7ghds2hhis56rpsd51u4se3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1YOr0LCgscc5VeXWtD5guM35V9_NaqZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29884511945-vm7087r7k7ghds2hhis56rpsd51u4se3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
