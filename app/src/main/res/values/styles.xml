@@ -1,10 +1,10 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">#eb1556</item>  //is the color of icon when icon is selected.
+        <item name="colorPrimaryDark">#9b9e9c</item> //is the color of upmost part i.e. time,battry etc.
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 

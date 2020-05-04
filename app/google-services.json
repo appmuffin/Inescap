@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "29884511945-k99k213s2mrr3o7br70bbe4p15rnctad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inescap",
+            "certificate_hash": "32d795a39982c7c4aeb2d8625bae70c13791d53e"
+          }
+        },
+        {
           "client_id": "29884511945-7k7fdhbvj43pda96lkp1kc8l1d5hgr6u.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
