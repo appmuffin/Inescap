@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/navigate_home">
+
+    <fragment
+        android:id="@+id/navigate_home"
+        android:name="com.example.inescap.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigate_home_to_interests"
+            app:destination="@id/interests" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigate_chat"
+        android:name="com.example.inescap.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/navigate_addpost"
+        android:name="com.example.inescap.AddpostFragment"
+        android:label="Add Post"
+        tools:layout="@layout/fragment_addpost" />
+    <fragment
+        android:id="@+id/navigate_search"
+        android:name="com.example.inescap.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigate_profile"
+        android:name="com.example.inescap.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/notifications"
+        android:name="com.example.inescap.NotificationFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.inescap.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/interests"
+        android:name="com.example.inescap.InterestFragment"
+        android:label="Interests"
+        tools:layout="@layout/fragment_interest" />
+
+</navigation>
